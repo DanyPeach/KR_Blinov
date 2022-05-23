@@ -1,5 +1,7 @@
 package Lol.task1;
 
 public interface BarbarianRage {
-    boolean hit();
+    default void doable(){
+        System.out.println("привет");
+    }
 }
